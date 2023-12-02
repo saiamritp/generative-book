@@ -4,7 +4,7 @@ longtitle:        Generative Book
 author:           Sai Amrit Patnaik
 email:            saiamritp@gmail.com
 description: >
-  Build Jekyll site with the GitBook style.
+  Online book for Generative Models.
 
 version:          1.0
 gitbook_version:  3.2.3
@@ -14,7 +14,7 @@ baseurl:          '/generative-book'
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
-remote_theme: sighingnow/jekyll-gitbook
+remote_theme: saiamritp/generative-book
 
 toc:
   enabled: true
