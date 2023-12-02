@@ -3,31 +3,11 @@ layout: home
 title: Generative Book
 permalink: /
 ---
-<h1 <p align=center>Generative Model</h1>
-<div align="center">
+# Generative Models deep dive
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
-[![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com) 
-</div>
+![img](https://ychai.uk/notes/images/taxonomy-of-generative-models.png)
 
-A collection of resources on 2D Generative Model which utilize generator functions that map low-dimensional latent codes to high-dimensional data outputs..
-
-![img](https://raw.githubusercontent.com/yzy1996/Image-Hosting/master/generative-overview.png)
-
-## Contributing
-
-Feedback and contributions are welcome! If you think I have missed out on something (or) have any suggestions (papers, implementations and other resources), feel free to pull a request or leave an issue. I will release the [latex-pdf version]() in the future. :arrow_down:markdown format:
-
-``` markdown
-[Paper Name](abs link)  
-*[Author 1](homepage), Author 2, and Author 3*
-**[`Conference/Journal Year`] (`Institution`)** [[Github](link)] [[Project](link)]
-```
-
-:smile: Now you can use this [script](https://github.com/yzy1996/Python-Code/tree/master/Python%2BarXiv) to automatically generate the above text.
-
-
+Explaining Generative models in a simple and intuitive yet elaborate manner with the underlying theory and implementation.
 
 ## Contents
 
