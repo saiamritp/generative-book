@@ -68,7 +68,7 @@ Deep generative models can be divided broadly into three categories:
 
   > directly optimize the model log-likelihood or the evidence lower bound.
 
-- **Variational autoencoder (VAE) **
+- **Variational autoencoder (VAE)**
 
     > :yum: fast | tractable sampling | easy-to-access encoding networks 
 
