@@ -3,18 +3,12 @@ layout: home
 title: Generative Book
 permalink: /
 ---
-# Generative Models deep dive
 
-![img](https://ychai.uk/notes/images/taxonomy-of-generative-models.png)
+![img](https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-3-030-75178-4_4/MediaObjects/493751_1_En_4_Fig2_HTML.png)
 
 Explaining Generative models in a simple and intuitive yet elaborate manner with the underlying theory and implementation.
 
 ## Contents
-
-**GAN related sources** has been moved to **[GAN](https://github.com/yzy1996/Awesome-GANs)**
-
-**3D-Aware Generation** has been moved to **[Learn 3D from 2D](https://github.com/yzy1996/Awesome-Learn-3D-From-2D)** 
-
 
 
 1. [Variational AutoEncoder (VAE)](./1-Variational%20AutoEncoder%20(VAE))
