@@ -38,7 +38,7 @@ Suppose that there exists some hidden variable $z$ which generates an observatio
 
 ![img](https://www.jeremyjordan.me/content/images/2018/03/Screen-Shot-2018-03-17-at-1.31.39-PM.png)
 
-We can only see $x$, but we would like to infer the characteristics of $z$. In other words, we’d like to compute $p(z|x)$
+We can only see $x$, but we would like to infer the characteristics of $z$. In other words, we’d like to compute $p(z/x)$
 
 $$p(z|x) = \frac{p(x|z)p(x)}{p(z)}$$
 
@@ -48,7 +48,7 @@ $$p(x) = \int_{}^{}p(x/z)p(z)dz$$
 
 This usually turns out to be an intractable distribution. However, we can apply varitational inference to estimate this value.
 
-Let's approximate $p(z/x)$ by another distribution $q(z/x)$ which we'll define such that it has a tractable distribution. If we can define the parameters of $q(z|x)$ such that it is very similar to $p(z/x)$, we can use it to perform approximate inference of the intractable distribution.
+Let's approximate $p(z/x)$ by another distribution $q(z/x)$ which we'll define such that it has a tractable distribution. If we can define the parameters of $q(z/x)$ such that it is very similar to $p(z/x)$, we can use it to perform approximate inference of the intractable distribution.
 
 Recall that the KL divergence is a measure of difference between two probability distributions. Thus, if we wanted to ensure that $q(z/x)$ was similar to $p(z/x)$, we could minimize the KL divergence between the two distributions.
 
