@@ -1,7 +1,7 @@
 ---
 title: About
-author: Tao He
-date: 2022-02-04
+author: Sai Amrit Patnaik
+date: 2023-02-12
 category: Jekyll
 layout: post
 ---
