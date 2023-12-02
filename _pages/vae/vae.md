@@ -48,9 +48,9 @@ $$p(x) = \int_{}^{}p(x/z)p(z)dz$$
 
 This usually turns out to be an intractable distribution. However, we can apply varitational inference to estimate this value.
 
-Let's approximate $p(z|x)$ by another distribution $q(z|x)$ which we'll define such that it has a tractable distribution. If we can define the parameters of $q(z|x)$ such that it is very similar to $p(z|x)$, we can use it to perform approximate inference of the intractable distribution.
+Let's approximate $p(z/x)$ by another distribution $q(z/x)$ which we'll define such that it has a tractable distribution. If we can define the parameters of $q(z|x)$ such that it is very similar to $p(z/x)$, we can use it to perform approximate inference of the intractable distribution.
 
-Recall that the KL divergence is a measure of difference between two probability distributions. Thus, if we wanted to ensure that $q(z|x)$ was similar to $p(z|x)$, we could minimize the KL divergence between the two distributions.
+Recall that the KL divergence is a measure of difference between two probability distributions. Thus, if we wanted to ensure that $q(z/x)$ was similar to $p(z/x)$, we could minimize the KL divergence between the two distributions.
 
 $$min KL (q(z|x)||p(z|x))$$
 
@@ -64,7 +64,7 @@ To revisit our graphical model, we can use $q$ to infer the possible hidden vari
 
 ![img](https://www.jeremyjordan.me/content/images/2018/03/Screen-Shot-2018-03-17-at-11.31.15-PM.png)
 
-Our loss function for this network will consist of two terms, one which penalizes reconstruction error (which can be thought of maximizing the reconstruction likelihood as discussed earlier) and a second term which encourages our learned distribution $q(z|x)$ to be similar to the true prior distribution $p(z)$, which we'll assume follows a unit Gaussian distribution, for each dimension $j$ of the latent space.
+Our loss function for this network will consist of two terms, one which penalizes reconstruction error (which can be thought of maximizing the reconstruction likelihood as discussed earlier) and a second term which encourages our learned distribution $q(z/x)$ to be similar to the true prior distribution $p(z)$, which we'll assume follows a unit Gaussian distribution, for each dimension $j$ of the latent space.
 
 $$L(x,\hat{x}) + \sum_j{KL(q_j(z|x)||p(z))}$$
 
